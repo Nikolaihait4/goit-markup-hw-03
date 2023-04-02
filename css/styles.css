@@ -140,8 +140,7 @@ body {
 
 .studio-page {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 
   font-weight: 500;
   font-size: 16px;
@@ -239,7 +238,7 @@ body {
   gap: 24px;
 }
 
-.advantages-item.text {
+.text.advantages {
   width: calc((100% - 72px) / 4);
 }
 
@@ -295,8 +294,7 @@ body {
   background-color: var(--dark-color);
 }
 
-.footer-item.main-logo,
-.footer-item.footer-part {
+.container > a {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -356,6 +354,8 @@ body {
 }
 
 .portfolio-title {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
