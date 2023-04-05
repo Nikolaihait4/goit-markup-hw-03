@@ -378,11 +378,14 @@ body {
 }
 
 .portfolio-work {
-  margin: 0;
   padding: 32px 16px;
   border: 1px solid var(--accent-color);
   border-top: none;
   margin-bottom: 8px;
+}
+
+div.portfolio-work{
+  margin-bottom: 0;
 }
 
 .main-text.portfolio {
