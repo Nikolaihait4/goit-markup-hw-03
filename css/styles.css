@@ -198,7 +198,6 @@ body {
 .hero-section {
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
   text-align: center;
 
   background-color: var(--hero-background-color);
@@ -308,6 +307,7 @@ body {
 }
 
 .footer-inform {
+  margin: 0;
   max-width: 264px;
 
   font-weight: 400;
@@ -321,7 +321,9 @@ body {
 
 /* section-filters */
 .filters {
-  padding: 96px 120px;
+  padding: 96px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .button-item {
@@ -354,6 +356,7 @@ body {
 }
 
 .portfolio-title {
+  margin-top: 0;
   margin-bottom: 8px;
 
   font-weight: 500;
@@ -377,6 +380,7 @@ body {
 }
 
 .portfolio-work {
+  margin: 0;
   padding: 32px 16px;
   border: 1px solid var(--accent-color);
   border-top: none;
