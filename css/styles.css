@@ -321,9 +321,7 @@ body {
 
 /* section-filters */
 .filters {
-  padding: 96px;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 96px 120px;
 }
 
 .button-item {
