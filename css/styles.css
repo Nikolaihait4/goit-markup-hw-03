@@ -321,7 +321,7 @@ body {
 
 /* section-filters */
 .filters {
-  padding: 120px;
+  padding: 0 120px;
 }
 
 .button-item {
@@ -384,7 +384,7 @@ body {
   margin-bottom: 8px;
 }
 
-div.portfolio-work{
+div.portfolio-work {
   margin-bottom: 0;
 }
 
